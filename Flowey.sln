@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{12E5B06B-2FB2-4FA2-AE34-CF24E7FB1C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowey.Web", "Flowey.Web\Flowey.Web.csproj", "{436EDF9F-8954-4E80-91E4-EA622F6E9AA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5788000F-1750-46D5-9BBC-8A52E457D900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowey.Services.ProductAPI", "Flowey.Services.ProductAPI\Flowey.Services.ProductAPI.csproj", "{CC7F67D4-0B27-4CC1-B128-AEE4DFB421DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{F045BB28-0669-42BF-8701-72585C167175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowey.DataLayer", "Flowey.DataLayer\Flowey.DataLayer.csproj", "{6254F566-CD74-47BF-8C15-EA4B11ADA4D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{436EDF9F-8954-4E80-91E4-EA622F6E9AA7} = {12E5B06B-2FB2-4FA2-AE34-CF24E7FB1C24}
+		{CC7F67D4-0B27-4CC1-B128-AEE4DFB421DC} = {5788000F-1750-46D5-9BBC-8A52E457D900}
+		{6254F566-CD74-47BF-8C15-EA4B11ADA4D6} = {F045BB28-0669-42BF-8701-72585C167175}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436EDF9F-8954-4E80-91E4-EA622F6E9AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436EDF9F-8954-4E80-91E4-EA622F6E9AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436EDF9F-8954-4E80-91E4-EA622F6E9AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436EDF9F-8954-4E80-91E4-EA622F6E9AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7F67D4-0B27-4CC1-B128-AEE4DFB421DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7F67D4-0B27-4CC1-B128-AEE4DFB421DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7F67D4-0B27-4CC1-B128-AEE4DFB421DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7F67D4-0B27-4CC1-B128-AEE4DFB421DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6254F566-CD74-47BF-8C15-EA4B11ADA4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6254F566-CD74-47BF-8C15-EA4B11ADA4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6254F566-CD74-47BF-8C15-EA4B11ADA4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6254F566-CD74-47BF-8C15-EA4B11ADA4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
